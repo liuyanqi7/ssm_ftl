@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/ftl/edit.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/ftl/list.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/ftl/login.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/list.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/login.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/test.ftl" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/vue.ftl" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
