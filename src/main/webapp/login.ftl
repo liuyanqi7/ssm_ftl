@@ -5,8 +5,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	${msg}
- 	<form action="/user/userLogin" method="post">
+	${msg}wosdahjaskfdsdakfhaslaskdjasklfajsflkasfjasl
+ 	<form action="/userLogin.do" method="post">
  		ÕËºÅ£º<input type="text" name="userName"><br/>
  		ÃÜÂë£º<input type="password" name="passWord"><br/>
  		<input type="submit" value="µÇÂ¼"> 		

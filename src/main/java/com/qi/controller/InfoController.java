@@ -2,13 +2,19 @@ package com.qi.controller;
 
 import com.github.pagehelper.Page;
 import com.qi.pojo.Info;
+import com.qi.pojo.User;
 import com.qi.service.InfoService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpSession;
+import java.nio.file.attribute.UserDefinedFileAttributeView;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -27,6 +33,7 @@ import java.util.Map;
  * 3.此时(使用@RestController)如果某方法仍要返回视图，则使用ModelAndView
  */
 @RestController
+
 public class InfoController {
 
     @Resource

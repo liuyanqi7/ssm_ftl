@@ -6,7 +6,7 @@
 </head>
 <body>
 	${msg}
- 	<form action="/user/userLogin" method="post">
+ 	<form action="/user/userLogin.do" method="post">
  		’À∫≈£∫<input type="text" name="userName"><br/>
  		√‹¬Î£∫<input type="password" name="passWord"><br/>
  		<input type="submit" value="µ«¬º"> 		

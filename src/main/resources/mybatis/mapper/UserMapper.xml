@@ -11,4 +11,8 @@
         select <include refid="sqlCols"/>
         from t_info
     </select>
+
+    <select id="checkLogin" parameterType="User" resultType="User">
+        select * from t_user where username=#{userName} and password=#{passWord}
+    </select>
 </mapper>

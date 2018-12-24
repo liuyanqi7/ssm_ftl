@@ -1,7 +1,9 @@
 package com.qi.service;
 
 import com.github.pagehelper.Page;
+import com.qi.pojo.User;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -14,4 +16,6 @@ import java.util.Map;
  */
 public interface InfoService {
         Page queryInfo(Map<String,Object> cond);
+
+        List<User> getLoginUser(User user);
 }

@@ -1,6 +1,7 @@
 package com.qi.dao;
 
 import com.qi.pojo.Info;
+import com.qi.pojo.User;
 
 import java.util.List;
 
@@ -19,6 +20,7 @@ public interface InfoDao {
      **/
     List<Info> getInfo();
 
+    List<User> checkLogin(User user);
 
 
 }

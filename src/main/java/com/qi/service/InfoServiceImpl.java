@@ -3,6 +3,7 @@ package com.qi.service;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.qi.dao.InfoDao;
+import com.qi.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,6 +35,12 @@ public class InfoServiceImpl implements InfoService{
         page= PageHelper.startPage(pageNum,pageSize);
         List list= infoDao.getInfo();
         return page;
+    }
+
+    @Override
+    public List<User> getLoginUser(User user) {
+        List<User> users = infoDao.checkLogin(user);
+        return users;
     }
 
     public InfoDao getInfoDao() {
